@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Company A",
+      "category_id": 1
+    },
+    {
+      "name": "Company B",
+      "category_id": 1
+    },
+    {
+      "name": "Company C",
+      "category_id": 1
+    },
+    {
+      "name": "Community A",
+      "category_id": 2
+    },
+    {
+      "name": "Community B",
+      "category_id": 2
+    },
+    {
+      "name": "Community C",
+      "category_id": 2
+    },
+    {
+      "name": "Education A",
+      "category_id": 3
+    },
+    {
+      "name": "Education B",
+      "category_id": 3
+    },
+    {
+      "name": "Education C",
+      "category_id": 3
+    }
+]
