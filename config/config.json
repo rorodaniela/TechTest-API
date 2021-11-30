@@ -9,15 +9,15 @@
   "test": {
     "username": "postgres",
     "password": "sispromasi16",
-    "database": "database_test",
+    "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "sispromasi16",
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "kmiwdvfhbuknnz",
+    "password": "f5da256ba3b595b4e71c9b14fef7aee26555768c48309fb6e5714426af0ad5ee",
+    "database": "dqbn4gsmehtld",
+    "host": "ec2-23-23-219-25.compute-1.amazonaws.com",
     "dialect": "postgres"
   }
 }
