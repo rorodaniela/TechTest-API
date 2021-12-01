@@ -3,7 +3,18 @@ const { Product } = require("../models");
 class ProductController {
   static async getAll(req, res, next) {
     try {
-      const product = await Product.findAll();
+      const { id } = req.params;
+      const product = await Product.findAll({ where: { category_id: id } });
+      return res.status(200).json(product);
+    } catch (error) {
+      return res.status(500).json(error);
+    }
+  }
+
+  static async getDetail(req, res, next) {
+    try {
+      const { id } = req.params
+      const product = await Product.findOne({ where: { id: id } });
       return res.status(200).json(product);
     } catch (error) {
       return res.status(500).json(error);
